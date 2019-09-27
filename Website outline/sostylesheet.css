@@ -1,0 +1,103 @@
+
+body {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-image:url("metropolis.jpg");
+  background-size:100%;
+  color:white;
+  font:;
+}
+#homae {
+  background-image:url("earth.jpg");
+}
+
+
+
+/*navigation */
+nav {
+  clear:both;
+  text-align:center;
+  font-size:1.5em;
+  background-color:RGBA(00,00,00,1);
+  font-weight:bold;
+}
+nav a {
+  text-decoration:none;
+  margin:1em;
+}
+a:hover {
+  color:Yellow;
+}
+a:visited {
+  color:red;
+}
+a:active {
+  color:red
+}
+@keyframes example {
+    0%   {background-color: red;}
+    0%   {color:white;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: inherit}
+}
+nav {
+  animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+
+
+#pagetitle {
+ color:white;
+ text-align:center;
+}
+h2 {
+  
+}
+footer {
+  clear:both;
+  text-align:center;
+  background: rgba(00, 00, 00, .7);
+ }
+
+
+#content {
+  display:block;
+  margin-left:40%;
+  left:30%;
+}
+.scrollwithu {
+}
+.superbuddy{
+  height:50%;
+  float:right;
+  position:fixed;
+  left:2%;
+  top:20%;
+}
+#picmansuper {
+  position:absoulute;
+}
+article {
+  margin-left:15%;
+  background-color:rgba(00,00,00, .5);
+  font-size:20px;
+}
+article h2 {
+  text-align:center;
+}
+p {
+width:50%;
+text-align:dh2;
+margin-left:25%;
+}
+
+.thatpage {
+  
+}
